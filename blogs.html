@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - PersonaHub</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 100%);
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen text-white">
+  
+    <nav class="glass-effect sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-blue-600 rounded flex items-center justify-center font-bold">DT</div>
+                    <span class="text-xl font-bold">PersonaHub</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="hover:text-blue-400 transition">Team</a>
+                    <a href="#" class="hover:text-blue-400 transition">Projects</a>
+                    <a href="#" class="hover:text-blue-400 transition">Services</a>
+                    <a href="#" class="text-blue-400 font-medium">Blog</a>
+                    <a href="#" class="hover:text-blue-400 transition">Contact</a>
+                    <button class="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition">Pro Plan</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="max-w-7xl mx-auto px-4 py-16 text-center">
+        <h1 class="text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            From the team that ships every week
+        </h1>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto mb-12">
+            Engineering insights, case studies, and technical deep-dives from our journey building products at scale.
+        </p>
+        
+        
+        <div class="flex justify-center space-x-12">
+            <div class="text-center">
+                <div class="text-4xl font-bold text-blue-400">48</div>
+                <div class="text-gray-400">Articles</div>
+            </div>
+            <div class="text-center">
+                <div class="text-4xl font-bold text-blue-400">12k</div>
+                <div class="text-gray-400">Views</div>
+            </div>
+            <div class="text-center">
+                <div class="text-4xl font-bold text-blue-400">6</div>
+                <div class="text-gray-400">Authors</div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="max-w-7xl mx-auto px-4 pb-12">
+        <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
+            <div class="flex flex-wrap gap-3">
+                <button class="px-4 py-2 bg-blue-600 text-white rounded-lg font-medium">All Posts</button>
+                <button class="px-4 py-2 glass-effect text-gray-300 rounded-lg hover:bg-white hover:bg-opacity-10 transition">HTML/CSS</button>
+                <button class="px-4 py-2 glass-effect text-gray-300 rounded-lg hover:bg-white hover:bg-opacity-10 transition">JavaScript</button>
+                <button class="px-4 py-2 glass-effect text-gray-300 rounded-lg hover:bg-white hover:bg-opacity-10 transition">Python</button>
+                <button class="px-4 py-2 glass-effect text-gray-300 rounded-lg hover:bg-white hover:bg-opacity-10 transition">Docker</button>
+                <button class="px-4 py-2 glass-effect text-gray-300 rounded-lg hover:bg-white hover:bg-opacity-10 transition">Backend</button>
+                <button class="px-4 py-2 glass-effect text-gray-300 rounded-lg hover:bg-white hover:bg-opacity-10 transition">PostgreSQL</button>
+            </div>
+            <div class="relative">
+                <input type="text" placeholder="Search articles..." class="glass-effect text-white px-4 py-2 pr-10 rounded-lg w-64 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <i class='bx bx-search absolute right-3 top-3 text-gray-400'></i>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="max-w-7xl mx-auto px-4 pb-16">
+        <div class="grid lg:grid-cols-2 gap-8">
+            <div class="glass-effect rounded-2xl p-8 flex items-center justify-center">
+                <div class="text-center">
+                    <i class='bx bx-tachometer text-6xl text-blue-400 mb-4'></i>
+                    <div class="text-sm text-blue-300 mb-2">FEATURE POST</div>
+                    <h3 class="text-2xl font-bold">Strategies to Standout as a Software Engineer at Blockfuse Labs</h3>
+                </div>
+            </div>
+            
+            <div class="glass-effect rounded-2xl p-6">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mr-3">
+                        <span class="text-white font-bold">NS</span>
+                    </div>
+                    <div>
+                        <div class="font-medium">Nenpine</div>
+                        <div class="text-sm text-gray-400">5 min read</div>
+                    </div>
+                </div>
+                
+                <p class="text-gray-300 mb-4">
+                    A comprehensive guide on how to excel as a software engineer at Blockfuse Labs, covering technical skills, project management, and career growth strategies.
+                </p>
+                
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="px-3 py-1 bg-blue-600 bg-opacity-20 text-blue-300 text-sm rounded">Career</span>
+                    <span class="px-3 py-1 bg-blue-600 bg-opacity-20 text-blue-300 text-sm rounded">Skills</span>
+                    <span class="px-3 py-1 bg-blue-600 bg-opacity-20 text-blue-300 text-sm rounded">Growth</span>
+                    <span class="px-3 py-1 bg-blue-600 bg-opacity-20 text-blue-300 text-sm rounded">Best Practices</span>
+                </div>
+                
+                <div class="flex justify-between items-center">
+                    <div class="flex space-x-4 text-sm text-gray-400">
+                        <span><i class='bx bx-show'></i> 2.4k views</span>
+                        <span><i class='bx bx-heart'></i> 124 likes</span>
+                        <span><i class='bx bx-comment'></i> 18 comments</span>
+                    </div>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+                        Read Article
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="max-w-7xl mx-auto px-4 pb-16">
+        <h2 class="text-2xl font-bold mb-8">LATEST POSTS</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <article class="glass-effect rounded-xl p-6 hover:transform hover:scale-105 transition">
+                <div class="flex items-center mb-4">
+                    <i class='bx bx-code-alt text-blue-400 text-2xl mr-3'></i>
+                    <span class="text-blue-400 text-sm font-medium">Frontend</span>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Building component libraries with Tailwind CSS</h3>
+                <p class="text-gray-400 text-sm mb-4">How we created reusable components that increased our development velocity by 60%.</p>
+                <div class="flex items-center text-sm text-gray-500">
+                    <span>Nenpine</span>
+                    <span class="mx-2">•</span>
+                    <span>2 days ago</span>
+                </div>
+            </article>
+
+           
+            <article class="glass-effect rounded-xl p-6 hover:transform hover:scale-105 transition">
+                <div class="flex items-center mb-4">
+                    <i class='bx bx-shield text-red-400 text-2xl mr-3'></i>
+                    <span class="text-red-400 text-sm font-medium">Security</span>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Authentication patterns in modern web apps</h3>
+                <p class="text-gray-400 text-sm mb-4">Building secure authentication systems with best practices and common pitfalls.</p>
+                <div class="flex items-center text-sm text-gray-500">
+                    <span>Godwin Benjamin</span>
+                    <span class="mx-2">•</span>
+                    <span>4 days ago</span>
+                </div>
+            </article>
+
+            
+            <article class="glass-effect rounded-xl p-6 hover:transform hover:scale-105 transition">
+                <div class="flex items-center mb-4">
+                    <i class='bx bx-data text-green-400 text-2xl mr-3'></i>
+                    <span class="text-green-400 text-sm font-medium">Backend</span>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Python API development patterns</h3>
+                <p class="text-gray-400 text-sm mb-4">Building scalable REST APIs with Python and best practices we learned in production.</p>
+                <div class="flex items-center text-sm text-gray-500">
+                    <span>Andrew Sughnen</span>
+                    <span class="mx-2">•</span>
+                    <span>1 week ago</span>
+                </div>
+            </article>
+
+           
+            <article class="glass-effect rounded-xl p-6 hover:transform hover:scale-105 transition">
+                <div class="flex items-center mb-4">
+                    <i class='bx bx-rocket text-purple-400 text-2xl mr-3'></i>
+                    <span class="text-purple-400 text-sm font-medium">Engineering</span>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">How we ship projects in 6 weeks consistently</h3>
+                <p class="text-gray-400 text-sm mb-4">Our proven framework for rapid development without sacrificing quality.</p>
+                <div class="flex items-center text-sm text-gray-500">
+                    <span>James Damak</span>
+                    <span class="mx-2">•</span>
+                    <span>2 weeks ago</span>
+                </div>
+            </article>
+
+          
+            <article class="glass-effect rounded-xl p-6 hover:transform hover:scale-105 transition">
+                <div class="flex items-center mb-4">
+                    <i class='bx bx-network-chart text-yellow-400 text-2xl mr-3'></i>
+                    <span class="text-yellow-400 text-sm font-medium">DevOps</span>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Docker containerization best practices</h3>
+                <p class="text-gray-400 text-sm mb-4">How we streamlined our deployment process with Docker and CI/CD pipelines.</p>
+                <div class="flex items-center text-sm text-gray-500">
+                    <span>Andrew Sughnen</span>
+                    <span class="mx-2">•</span>
+                    <span>3 weeks ago</span>
+                </div>
+            </article>
+
+           
+            <article class="glass-effect rounded-xl p-6 hover:transform hover:scale-105 transition">
+                <div class="flex items-center mb-4">
+                    <i class='bx bx-palette text-pink-400 text-2xl mr-3'></i>
+                    <span class="text-pink-400 text-sm font-medium">Frontend</span>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Frontend Architecture Operations</h3>
+                <p class="text-gray-400 text-sm mb-4">Managing large-scale frontend applications with architectural patterns and operational best practices.</p>
+                <div class="flex items-center text-sm text-gray-500">
+                    <span>Moses Ugba</span>
+                    <span class="mx-2">•</span>
+                    <span>1 month ago</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    
+    <section class="glass-effect">
+        <div class="max-w-4xl mx-auto px-4 py-16 text-center">
+            <h2 class="text-3xl font-bold mb-4">STAY IN THE LOOP</h2>
+            <p class="text-xl text-gray-300 mb-8">Engineering insights, straight to your inbox</p>
+            <p class="text-gray-400 mb-8">Join 12,000+ developers getting weekly updates on our latest articles, case studies, and technical deep-dives.</p>
+            <div class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+                <input type="email" placeholder="Enter your email" class="glass-effect text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button class="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
