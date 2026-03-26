@@ -238,6 +238,9 @@
   .w-\[400px\] {
     width: 400px;
   }
+  .max-w-7 {
+    max-width: calc(var(--spacing) * 7);
+  }
   .max-w-7xl {
     max-width: var(--container-7xl);
   }
