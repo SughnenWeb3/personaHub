@@ -2,7 +2,7 @@
 
 A modern profile page project showcasing team members and services with a clean, responsive design built with Tailwind CSS.
 
-## 🚀 Tech Stack
+`Tech Stack`
 
 **HTML5** - Semantic markup and structure
 **Tailwind CSS v4.2.2** - Utility-first CSS framework for styling
