@@ -8,8 +8,8 @@
 </head>
 <body class="bg-[#0D1118]">
    <nav class="sticky top-0 z-50 flex items-center justify-between px-8 py-4 border-b border-white/10 backdrop-blur bg-black/50">
-    <div class="flex items-center gap-3 ml-12">
-      <div class="w-8 h-8 rounded bg-indigo-600 flex items-center justify-center font-bold text-xs text-amber-50 ">PH</div>
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded bg-indigo-600 flex items-center justify-center font-bold text-xs text-amber-50">PH</div>
       <span class="font-bold text-sm text-amber-50">PersonaHub</span>
     </div>
     <ul class="hidden md:flex items-center gap-1">
@@ -20,11 +20,11 @@
       <li><a href="#" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Contact</a></li>
     </ul>
     <div class="flex items-center gap-3">
-      <span class="px-3 py-1 rounded-full mr-14 font-mono text-xs text-indigo-400 border border-indigo-500/30 bg-indigo-500/10">Pro Plan</span>
+      <span class="px-3 py-1 rounded-full font-mono text-xs text-indigo-400 border border-indigo-500/30 bg-indigo-500/10">Pro Plan</span>
   
     </div>
   </nav>
-    <section class="h-[600px] flex items-center justify-evenly gap-96 pr-60">
+    <section class="min-h-[600px] flex items-center justify-evenly gap-96 pr-60">
 
         <div class="max-w-6xl w-full flex flex-col md:flex-row gap-12 items-center">
 
@@ -45,39 +45,39 @@
                 </p>
             </div>
         </div>
-        
+        <!-- RIGHT SIDE -->
         <div class="flex-col w-3xl">
 
-            
+            <!-- EMAIL -->
             <div class="flex items-center gap-4 bg-[#111827] p-4 rounded-xl border border-gray-700 mb-4 mt-4 ">
                 <div class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-lg">
                     📧
                 </div>
                 <div>
                     <p class="text-xs text-gray-700">EMAIL US</p>
-                    <p class="text-sm text-white">hello@PersonaHub@gmail.com</p>
+                    <p class="text-sm text-white">hello@devteam.io</p>
                 </div>
             </div>
 
-          
+            <!-- PHONE -->
             <div class="flex items-center gap-4 bg-[#111827] p-4 rounded-xl border border-gray-700 mb-4">
             <div class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-lg">
                 📞
             </div>
             <div>
                 <p class="text-xs text-gray-700">CALL US</p>
-                <p class="text-sm text-white">+2349075846511</p>
+                <p class="text-sm text-white">+1 (555) 012-3456</p>
             </div>
             </div>
 
-          
+            <!-- OFFICE -->
             <div class="flex items-center gap-4 bg-[#111827] p-4 rounded-xl border border-gray-700">
             <div class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-lg">
                 📍
             </div>
             <div>
                 <p class="text-xs text-gray-700">OFFICE</p>
-                <p class="text-sm text-white">Rayfield Jos</p>
+                <p class="text-sm text-white">San Francisco, CA · Remote-first</p>
             </div>
             </div>
 
@@ -89,9 +89,9 @@
 
   <section class="min-h-screen  flex justify-evenly ">
     
-    <div class="w-[1700px] w-full flex flex-col lg:flex-row gap-10 pl-52">
+    <div class="max-w-[1700px] w-full flex flex-col lg:flex-row gap-10">
 
-
+        <!-- LEFT: FORM -->
         <div class="flex-col ">
 
         <h2 class="text-2xl font-semibold mb-2 text-white">Send us a message</h2>
@@ -99,10 +99,10 @@
             Fill out the form and our team will get back to you within one business day.
         </p>
 
-        
+        <!-- FORM -->
         <form class="space-y-6 space-x-64">
 
-            
+            <!-- NAME -->
             <div class="grid md:grid-cols-2 gap-4">
             <div>
                 <label class="text-xs text-gray-400">FIRST NAME *</label>
@@ -117,7 +117,7 @@
             </div>
             </div>
 
-          
+            <!-- EMAIL + COMPANY -->
             <div class="grid md:grid-cols-2 gap-4">
             <div>
                 <label class="text-xs text-gray-400">WORK EMAIL *</label>
@@ -132,7 +132,7 @@
             </div>
             </div>
 
-      
+            <!-- INTEREST TAGS -->
             <div>
                 <p class="text-xs text-gray-400 mb-3">I'M INTERESTED IN *</p>
             </div>
@@ -146,20 +146,20 @@
                 <span class="px-3 py-1 text-sm bg-[#111827] border border-gray-700 rounded-full hover:text-gray-700 text-gray-400">Other</span>
             </div>
 
-        
+            <!-- SELECTS -->
             <div class="grid md:grid-cols-2 gap-4">
             <div>
                 <label class="text-xs text-gray-400">PROJECT TIMELINE</label>
-                <select class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none text-gray-600">
-                <option>1-2 months</option>
-                <option>3-6 months</option>
+                <select class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none">
+                <option>1–2 months</option>
+                <option>3–6 months</option>
                 <option>6+ months</option>
                 </select>
             </div>
 
             <div>
                 <label class="text-xs text-gray-400">HOW DID YOU HEAR ABOUT US?</label>
-                <select class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none text-gray-600">
+                <select class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none">
                 <option>Referral / Word of mouth</option>
                 <option>Twitter</option>
                 <option>LinkedIn</option>
@@ -167,7 +167,7 @@
             </div>
             </div>
 
-            
+            <!-- BUDGET -->
             <div>
             <label class="text-xs text-gray-400">ESTIMATED BUDGET</label>
             <input type="range" class="w-full mt-3"/>
@@ -177,15 +177,15 @@
             </div>
             </div>
 
-            
+            <!-- TEXTAREA -->
             <div>
             <label class="text-xs text-gray-400">TELL US ABOUT YOUR PROJECT *</label>
             <textarea rows="5"
-                class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none text-gray-300"
+                class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none"
                 placeholder="Describe what you're building..."></textarea>
             </div>
 
-            
+            <!-- FOOTER -->
             <div class="flex flex-col md:flex-row items-center">
                 <p class="text-xs text-gray-500 scroll-pr-96">
                     By submitting, you agree to our Privacy Policy.
@@ -199,30 +199,30 @@
         </form>
         </div>
 
-        
+        <!-- RIGHT PANEL -->
         <div class="w-full lg:w-[350px] space-y-6">
 
-        
+        <!-- RESPONSE TIME -->
         <div class="bg-[#111827] border border-green-500/20 p-4 rounded-xl">
             <p class="text-sm text-green-400">
             ● Average response time: under 4 hours on business days
             </p>
         </div>
 
-    
+        <!-- TEAM CARD -->
         <div class="bg-gradient-to-b from-blue-900/40 to-[#111827] p-6 rounded-xl border border-gray-700">
             <p class="text-xs text-gray-400 mb-2">YOU'LL BE TALKING TO</p>
-            <h3 class="font-semibold mb-2 text-white">Our founding team handles every inquiry personally</h3>
-            <p class="text-sm text-gray-600 mb-4">
+            <h3 class="font-semibold mb-2">Our founding team handles every inquiry personally</h3>
+            <p class="text-sm text-gray-400 mb-4">
             No automated replies. A real engineer reads your message and responds thoughtfully.
             </p>
 
-            <button class="w-full border border-gray-600 py-2 rounded-lg text-sm hover:bg-gray-800 text-blue-300">
+            <button class="w-full border border-gray-600 py-2 rounded-lg text-sm hover:bg-gray-800">
             Meet the full team →
             </button>
         </div>
 
-      
+        <!-- INFO -->
         <div class="space-y-4 text-sm text-gray-400">
 
             <div>
@@ -250,60 +250,72 @@
 
      <div class=" w-[1700px] pl-48 ">
 
-  
-    <h2 class="text-2xl font-semibold mb-10 text-gray-500">
+    <!-- TITLE -->
+    <h2 class="text-2xl font-semibold mb-10">
       Frequently asked <span class="text-gray-400">questions</span>
     </h2>
 
-    
+    <!-- GRID -->
     <div class="grid md:grid-cols-2 gap-6">
 
-  
+      <!-- ITEM -->
       <details class="group bg-[#111827] border border-gray-700 rounded-xl p-5">
         <summary class="flex justify-between items-center cursor-pointer list-none">
-          <h3 class="text-sm font-medium text-white">
+          <h3 class="text-sm font-medium">
             How quickly can your team start? 
           </h3>
           <span class="text-blue-400 text-lg transition-transform group-open:rotate-45">
             +
           </span>
         </summary>
+        <p class="text-sm text-gray-400 mt-3">
+          Most projects kick off within 1–2 weeks of signing. For urgent needs, we've onboarded teams in as little as 3 business days.
+        </p>
       </details>
 
-    
+      <!-- ITEM -->
       <details class="group bg-[#111827] border border-gray-700 rounded-xl p-5">
         <summary class="flex justify-between items-center cursor-pointer list-none">
-          <h3 class="text-sm font-medium text-white">
+          <h3 class="text-sm font-medium">
             Do you work with early-stage startups?
           </h3>
           <span class="text-blue-400 text-lg transition-transform group-open:rotate-45">
             +
           </span>
         </summary>
+        <p class="text-sm text-gray-400 mt-3">
+          Absolutely. About 40% of our clients are pre-Series A. We offer flexible payment structures and founder-friendly scoping.
+        </p>
       </details>
 
-    
+      <!-- ITEM -->
       <details class="group bg-[#111827] border border-gray-700 rounded-xl p-5">
         <summary class="flex justify-between items-center cursor-pointer list-none">
-          <h3 class="text-sm font-medium text-white">
+          <h3 class="text-sm font-medium">
             What's included in post-launch support?
           </h3>
           <span class="text-blue-400 text-lg transition-transform group-open:rotate-45">
             +
           </span>
         </summary>
-        
+        <p class="text-sm text-gray-400 mt-3">
+          Every project includes 30 days of post-launch support at no extra cost — bug fixes, performance tweaks, and deployment help.
+        </p>
       </details>
 
+      <!-- ITEM -->
       <details class="group bg-[#111827] border border-gray-700 rounded-xl p-5">
         <summary class="flex justify-between items-center cursor-pointer list-none">
-          <h3 class="text-sm font-medium text-white">
+          <h3 class="text-sm font-medium">
             Can we hire an engineer on a retainer?
           </h3>
           <span class="text-blue-400 text-lg transition-transform group-open:rotate-45">
             +
           </span>
         </summary>
+        <p class="text-sm text-gray-400 mt-3">
+          Yes. Our team augmentation service is month-to-month with no lock-in. Senior engineers only — no juniors billed as senior rates.
+        </p>
       </details>
 
     </div>
