@@ -514,8 +514,14 @@
   .w-\[7px\] {
     width: 7px;
   }
+  .w-\[8px\] {
+    width: 8px;
+  }
   .w-\[60px\] {
     width: 60px;
+  }
+  .w-\[550px\] {
+    width: 550px;
   }
   .w-\[580px\] {
     width: 580px;
