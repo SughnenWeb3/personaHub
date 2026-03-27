@@ -98,7 +98,7 @@
     <ul id="desktopMenu" class="hidden md:flex items-center gap-1">
       <li><a href="#" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Team</a></li>
       <li><a href="#" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Projects</a></li>
-      <li><a href="#" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Services</a></li>
+      <li><a href="/services.html" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Services</a></li>
       <li><a href="/blogs.html" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Blogs</a></li>
       <li><a href="/contact.html" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Contact</a></li>
     </ul>
@@ -323,23 +323,45 @@
       <span class="font-mono text-xs text-gray-600">Engineering Team</span>
     </div>
   </footer>
+
+    <script>
+    const pillButtons = document.querySelectorAll('.pill-btn');
+    const cards = document.querySelectorAll('.bg-white\\/3');
+    const searchInput = document.getElementById('searchInput');
+    let activeFilter = 'all';
+    let searchTerm = '';
+
+    function filterCards() {
+      cards.forEach(card => {
+        const name = card.textContent.toLowerCase();
+        const skills = card.textContent.toLowerCase();
+        
+        const matchesSearch = searchTerm === '' || 
+          name.includes(searchTerm) || 
+          skills.includes(searchTerm);
+        
+        const matchesFilter = activeFilter === 'all' || 
+          name.includes(activeFilter.toLowerCase());
+        
+        card.style.display = (matchesSearch && matchesFilter) ? 'block' : 'none';
+      });
+    }
+
+    pillButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        pillButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+        activeFilter = button.dataset.filter;
+        filterCards();
+      });
+    });
+
+    searchInput.addEventListener('input', (e) => {
+      searchTerm = e.target.value.toLowerCase().trim();
+      filterCards();
+    });
+  </script> 
+
 </body>
 
-<script>
-  // Mobile Menu Toggle
-  const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-  const mobileMenu = document.getElementById('mobileMenu');
-  const desktopMenu = document.getElementById('desktopMenu');
-
-  mobileMenuBtn.addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
-  });
-
-  // Close mobile menu when clicking outside
-  document.addEventListener('click', (e) => {
-    if (!mobileMenuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
-      mobileMenu.classList.add('hidden');
-    }
-  });
-</script>
 </html>
