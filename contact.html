@@ -6,29 +6,29 @@
     <title>Contact - DT DevTeam</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
-<body class="bg-[#0D1118]">
+<body class="min-h-screen bg-neutral-950">
    <nav class="sticky top-0 z-50 flex items-center justify-between px-8 py-4 border-b border-white/10 backdrop-blur bg-black/50">
     <div class="flex items-center gap-3">
       <div class="w-8 h-8 rounded bg-indigo-600 flex items-center justify-center font-bold text-xs text-amber-50">PH</div>
       <span class="font-bold text-sm text-amber-50">PersonaHub</span>
     </div>
     <ul class="hidden md:flex items-center gap-1">
-      <li><a href="#" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Home </a></li>
+      <li><a href="/index.html" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Home </a></li>
       <li><a href="#" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Projects</a></li>
       <li><a href="#" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Services</a></li>
-      <li><a href="#" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Blogs</a></li>
-      <li><a href="#" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Contact</a></li>
+      <li><a href="/blogs.html" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Blogs</a></li>
+      <li><a href="/contact.html" class="px-4 py-1.5 rounded-full text-xs text-gray-300 hover:text-white">Contact</a></li>
     </ul>
     <div class="flex items-center gap-3">
       <span class="px-3 py-1 rounded-full font-mono text-xs text-indigo-400 border border-indigo-500/30 bg-indigo-500/10">Pro Plan</span>
   
     </div>
   </nav>
-    <section class="min-h-[600px] flex items-center justify-evenly gap-96 pr-60">
+    <section class="min-h-screen flex items-center justify-center px-8 py-16">
 
-        <div class="max-w-6xl w-full flex flex-col md:flex-row gap-12 items-center">
+        <div class="max-w-5xl w-full grid lg:grid-cols-2 gap-12 items-center">
 
-            <div class="pl-52">
+            <div>
                 <p class="text-sm text-pink-400 mb-4">
                 — GET IN TOUCH
                 </p>
@@ -39,44 +39,44 @@
                 <span class="text-[#3B82F6]">together</span>
                 </h1>
 
-                <p class="text-gray-400 w-[580px]">
+                <p class="text-gray-400 mb-6">
                 Have a project in mind? Want to join our team? Or just want to say hello?
                 We respond to every message within 24 hours.
                 </p>
             </div>
         </div>
         <!-- RIGHT SIDE -->
-        <div class="flex-col w-3xl">
+        <div class="space-y-4">
 
             <!-- EMAIL -->
-            <div class="flex items-center gap-4 bg-[#111827] p-4 rounded-xl border border-gray-700 mb-4 mt-4 ">
-                <div class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-lg">
+            <div class="flex items-center gap-4 bg-[#111827] p-4 rounded-xl border border-gray-700">
+                <div class="w-12 h-12 flex items-center justify-center bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl text-white shadow-lg">
                     📧
                 </div>
                 <div>
-                    <p class="text-xs text-gray-700">EMAIL US</p>
+                    <p class="text-xs text-gray-400">EMAIL US</p>
                     <p class="text-sm text-white">hello@devteam.io</p>
                 </div>
             </div>
 
             <!-- PHONE -->
-            <div class="flex items-center gap-4 bg-[#111827] p-4 rounded-xl border border-gray-700 mb-4">
-            <div class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-lg">
+            <div class="flex items-center gap-4 bg-[#111827] p-4 rounded-xl border border-gray-700">
+            <div class="w-12 h-12 flex items-center justify-center bg-gradient-to-br from-green-600 to-emerald-600 rounded-xl text-white shadow-lg">
                 📞
             </div>
             <div>
-                <p class="text-xs text-gray-700">CALL US</p>
+                <p class="text-xs text-gray-400">CALL US</p>
                 <p class="text-sm text-white">+1 (555) 012-3456</p>
             </div>
             </div>
 
             <!-- OFFICE -->
             <div class="flex items-center gap-4 bg-[#111827] p-4 rounded-xl border border-gray-700">
-            <div class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-lg">
+            <div class="w-12 h-12 flex items-center justify-center bg-gradient-to-br from-purple-600 to-pink-600 rounded-xl text-white shadow-lg">
                 📍
             </div>
             <div>
-                <p class="text-xs text-gray-700">OFFICE</p>
+                <p class="text-xs text-gray-400">OFFICE</p>
                 <p class="text-sm text-white">San Francisco, CA · Remote-first</p>
             </div>
             </div>
@@ -87,9 +87,9 @@
 
   </section>
 
-  <section class="min-h-screen  flex justify-evenly ">
+  <section class="min-h-screen flex items-center justify-center px-8 py-16">
     
-    <div class="max-w-[1700px] w-full flex flex-col lg:flex-row gap-10">
+    <div class="max-w-5xl w-full flex flex-col lg:flex-row gap-10">
 
         <!-- LEFT: FORM -->
         <div class="flex-col ">
@@ -100,18 +100,18 @@
         </p>
 
         <!-- FORM -->
-        <form class="space-y-6 space-x-64">
+        <form class="space-y-6">
 
             <!-- NAME -->
             <div class="grid md:grid-cols-2 gap-4">
             <div>
-                <label class="text-xs text-gray-400">FIRST NAME *</label>
+                <label class="text-xs text-gray-300">FIRST NAME *</label>
                 <input type="text" placeholder="Godwin"
                 class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none focus:border-blue-500 text-gray-50"/>
             </div>
 
             <div>
-                <label class="text-xs text-gray-400">LAST NAME *</label>
+                <label class="text-xs text-gray-300">LAST NAME *</label>
                 <input type="text" placeholder="Ben"
                 class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none focus:border-blue-500 text-white"/>
             </div>
@@ -120,21 +120,21 @@
             <!-- EMAIL + COMPANY -->
             <div class="grid md:grid-cols-2 gap-4">
             <div>
-                <label class="text-xs text-gray-400">WORK EMAIL *</label>
+                <label class="text-xs text-gray-300">WORK EMAIL *</label>
                 <input type="email" placeholder="personal@gmail.com"
                 class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none focus:border-blue-500 text-white"/>
             </div>
 
             <div>
-                <label class="text-xs text-gray-400">COMPANY</label>
-                <input type="text" placeholder="cohort iv"
+                <label class="text-xs text-gray-300">COMPANY</label>
+                <input type="text" placeholder="Cohort IV"
                 class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none focus:border-blue-500 text-white"/>
             </div>
             </div>
 
             <!-- INTEREST TAGS -->
             <div>
-                <p class="text-xs text-gray-400 mb-3">I'M INTERESTED IN *</p>
+                <p class="text-xs text-gray-300 mb-3">I'M INTERESTED IN *</p>
             </div>
             <div class="flex flex-wrap gap-2">
                 <span class="px-3 py-1 text-sm text-blue-300 bg-gray-500 rounded-full hover:text-blue-800">Frontend Dev</span>
@@ -149,7 +149,7 @@
             <!-- SELECTS -->
             <div class="grid md:grid-cols-2 gap-4">
             <div>
-                <label class="text-xs text-gray-400">PROJECT TIMELINE</label>
+                <label class="text-xs text-gray-300">PROJECT TIMELINE</label>
                 <select class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none">
                 <option>1–2 months</option>
                 <option>3–6 months</option>
@@ -158,7 +158,7 @@
             </div>
 
             <div>
-                <label class="text-xs text-gray-400">HOW DID YOU HEAR ABOUT US?</label>
+                <label class="text-xs text-gray-300">HOW DID YOU HEAR ABOUT US?</label>
                 <select class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none">
                 <option>Referral / Word of mouth</option>
                 <option>Twitter</option>
@@ -169,7 +169,7 @@
 
             <!-- BUDGET -->
             <div>
-            <label class="text-xs text-gray-400">ESTIMATED BUDGET</label>
+            <label class="text-xs text-gray-300">ESTIMATED BUDGET</label>
             <input type="range" class="w-full mt-3"/>
             <div class="flex justify-between text-xs text-gray-400">
                 <span>$5k</span>
@@ -179,7 +179,7 @@
 
             <!-- TEXTAREA -->
             <div>
-            <label class="text-xs text-gray-400">TELL US ABOUT YOUR PROJECT *</label>
+            <label class="text-xs text-gray-300">TELL US ABOUT YOUR PROJECT *</label>
             <textarea rows="5"
                 class="w-full mt-2 bg-[#111827] border border-gray-700 rounded-lg p-3 outline-none"
                 placeholder="Describe what you're building..."></textarea>
@@ -187,11 +187,11 @@
 
             <!-- FOOTER -->
             <div class="flex flex-col md:flex-row items-center">
-                <p class="text-xs text-gray-500 scroll-pr-96">
+                <p class="text-xs text-gray-400">
                     By submitting, you agree to our Privacy Policy.
                 </p>
 
-                <button class="bg-blue-600 hover:bg-blue-700 px-6  py-3 rounded-lg text-sm ml-[460px]">
+                <button class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg text-sm w-full">
                    <p class="">Send Message →</p> 
                 </button>
             </div>
@@ -248,12 +248,19 @@
 
     </section>
 
-     <div class=" w-[1700px] pl-48 ">
-
-    <!-- TITLE -->
-    <h2 class="text-2xl font-semibold mb-10">
-      Frequently asked <span class="text-gray-400">questions</span>
-    </h2>
+     <!-- FAQ SECTION -->
+  <section class="py-16">
+    <div class="max-w-5xl w-full mx-auto px-8">
+      <!-- TITLE -->
+      <div class="text-center mb-12">
+        <div class="flex items-center justify-center gap-3 mb-4">
+          <div class="w-8 h-0.5px bg-gradient-to-r from-blue-500 to-indigo-500"></div>
+          <span class="font-mono text-xs uppercase tracking-widest text-indigo-400">Frequently Asked Questions</span>
+          <div class="w-8 h-0.5px bg-gradient-to-r from-blue-500 to-indigo-500"></div>
+        </div>
+        <h2 class="text-3xl font-bold text-white mb-4">Got Questions?</h2>
+        <p class="text-gray-400 max-w-2xl mx-auto">We've got answers to common questions about our services, process, and what to expect.</p>
+      </div>
 
     <!-- GRID -->
     <div class="grid md:grid-cols-2 gap-6">
@@ -261,14 +268,14 @@
       <!-- ITEM -->
       <details class="group bg-[#111827] border border-gray-700 rounded-xl p-5">
         <summary class="flex justify-between items-center cursor-pointer list-none">
-          <h3 class="text-sm font-medium">
+          <h3 class="text-sm font-medium text-white">
             How quickly can your team start? 
           </h3>
           <span class="text-blue-400 text-lg transition-transform group-open:rotate-45">
             +
           </span>
         </summary>
-        <p class="text-sm text-gray-400 mt-3">
+        <p class="text-sm text-gray-300 mt-3">
           Most projects kick off within 1–2 weeks of signing. For urgent needs, we've onboarded teams in as little as 3 business days.
         </p>
       </details>
@@ -276,14 +283,14 @@
       <!-- ITEM -->
       <details class="group bg-[#111827] border border-gray-700 rounded-xl p-5">
         <summary class="flex justify-between items-center cursor-pointer list-none">
-          <h3 class="text-sm font-medium">
+          <h3 class="text-sm font-medium text-white">
             Do you work with early-stage startups?
           </h3>
           <span class="text-blue-400 text-lg transition-transform group-open:rotate-45">
             +
           </span>
         </summary>
-        <p class="text-sm text-gray-400 mt-3">
+        <p class="text-sm text-gray-300 mt-3">
           Absolutely. About 40% of our clients are pre-Series A. We offer flexible payment structures and founder-friendly scoping.
         </p>
       </details>
@@ -291,14 +298,14 @@
       <!-- ITEM -->
       <details class="group bg-[#111827] border border-gray-700 rounded-xl p-5">
         <summary class="flex justify-between items-center cursor-pointer list-none">
-          <h3 class="text-sm font-medium">
+          <h3 class="text-sm font-medium text-white">
             What's included in post-launch support?
           </h3>
           <span class="text-blue-400 text-lg transition-transform group-open:rotate-45">
             +
           </span>
         </summary>
-        <p class="text-sm text-gray-400 mt-3">
+        <p class="text-sm text-gray-300 mt-3">
           Every project includes 30 days of post-launch support at no extra cost — bug fixes, performance tweaks, and deployment help.
         </p>
       </details>
@@ -306,14 +313,14 @@
       <!-- ITEM -->
       <details class="group bg-[#111827] border border-gray-700 rounded-xl p-5">
         <summary class="flex justify-between items-center cursor-pointer list-none">
-          <h3 class="text-sm font-medium">
+          <h3 class="text-sm font-medium text-white">
             Can we hire an engineer on a retainer?
           </h3>
           <span class="text-blue-400 text-lg transition-transform group-open:rotate-45">
             +
           </span>
         </summary>
-        <p class="text-sm text-gray-400 mt-3">
+        <p class="text-sm text-gray-300 mt-3">
           Yes. Our team augmentation service is month-to-month with no lock-in. Senior engineers only — no juniors billed as senior rates.
         </p>
       </details>
